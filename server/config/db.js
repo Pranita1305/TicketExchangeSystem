@@ -5,8 +5,8 @@ const mongoose=require("mongoose");
 const connectDB=async() => {
     try{
         await mongoose.connect(process.env.MONGO_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+        useNewUrlParser: true,// use updated connection parser and server monitoring
+        useUnifiedTopology: true,
     });//uri of db in environment variable
 
         console.log("Successful database connection");
