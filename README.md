@@ -110,11 +110,7 @@ npm run dev
 * Ticket expiration and QR validation
 * Admin dashboard for ticket monitoring
 
-## 🙌 Contribution
 
-This project was built for educational purposes. Contributions or suggestions are welcome.
 
----
+**Author:** \[Pranita Mahajan]
 
-**Author:** \[Your Name]
-**GitHub:** [https://github.com/yourusername](https://github.com/yourusername)
