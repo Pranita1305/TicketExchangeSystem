@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.neon-text {
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.neon-border {
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 8px #00ffff, 0 0 15px #00ffff;
+}
